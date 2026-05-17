@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState, Fragment } from "react";
-import type { MeshConfig, YRoom } from "@baditaflorin/mesh-common";
+import { MeshNameInput, type MeshConfig, type YRoom } from "@baditaflorin/mesh-common";
 import * as Y from "yjs";
 
 type Props = { room: YRoom | null; config: MeshConfig };
@@ -70,12 +70,12 @@ export function Feature({ room, config }: Props) {
     <div className="when-screen">
       <header className="when-header">
         <h1>when can we meet?</h1>
-        <input
-          className="when-name"
-          placeholder="your name"
+        <MeshNameInput
           value={name}
-          onChange={(e) => setName(e.target.value)}
+          onChange={setName}
+          placeholder="your name"
           maxLength={24}
+          className="when-name"
         />
         <p className="when-status">{room.peerCount + 1} here · drag to paint, tap to toggle</p>
       </header>
