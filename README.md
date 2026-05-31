@@ -1,7 +1,7 @@
 # mesh-when2meet
 
 [![pages](https://img.shields.io/badge/live-baditaflorin.github.io%2Fmesh-when2meet-3aa8a1)](https://baditaflorin.github.io/mesh-when2meet/)
-[![version](https://img.shields.io/badge/version-0.1.0-blue)](https://github.com/baditaflorin/mesh-when2meet/blob/main/package.json)
+[![version](https://img.shields.io/badge/version-0.1.1-blue)](https://github.com/baditaflorin/mesh-when2meet/blob/main/package.json)
 [![license](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
 
 > Ephemeral availability picker — QR-join, no Doodle account, no email
